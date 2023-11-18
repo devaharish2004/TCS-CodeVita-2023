@@ -1,0 +1,16 @@
+There are n houses build in a line, each of which contains some value in it.
+
+ A thief is going to steal the maximal value of these houses, but he can’t steal in two adjacent houses because the owner of the stolen houses will tell his two neighbours left and right side.
+
+What is the maximum stolen value?
+
+Sample Input: val[] = {6, 7, 1, 3, 8, 2, 5}
+
+Sample Output: 20
+
+Solution :
+Since we can leave all the adjacent houses after a robbed house, we need to check two conditions :
+1. If the thief starts from index 0
+2. If the thief starts from index 1
+
+Thus, check for all odd values and even values in the array and find the maximum value of both.
