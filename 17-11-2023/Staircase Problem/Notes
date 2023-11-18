@@ -1,0 +1,15 @@
+There are n stairs, a person standing at the bottom wants to reach the top. The person can climb either 1 stair or 2 stairs at a time.
+
+Count the number of ways, the person can reach the top.
+
+Ex Input 1 : 4
+Ex Output 1 : 5
+
+Ex Input 2 : 6
+Ex Output 2 : 13
+
+Solution :
+
+When running the dry run for n >= 4, we find that the pattern follow Fibonacci series, starting from 1, 2, 3, 5 ,8, ....
+
+Thus, we can return the fibonacci value for the given n (both recursive and iterative approach can be implemented).
