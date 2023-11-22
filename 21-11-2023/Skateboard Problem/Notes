@@ -48,4 +48,4 @@ Explanation :
 It can be seen that from squares (1,4) and (1,5), there is no way to maneuver the skateboard to the Final destination, and hence are not safe starting points.. Similarly, squares (2,1),(3,1), and (4,1) are not safe starting points. The only safe starting points on the North and West borders are (1,1),(1,2),(1,3),(5,1). Hence the output is 4
 
 Solution :
-Simple BFS Traversal in 2D matrix
+Simple BFS Traversal in 2D matrix, we can also use DP or Recursion to solve this problem.
