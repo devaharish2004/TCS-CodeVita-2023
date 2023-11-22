@@ -1,0 +1,29 @@
+A Milkman serves milk in packaged bottles of varied sizes. The possible size of the bottles are {1, 5, 7 and 10} litres. He wants to supply desired quantity using as less bottles as possible irrespective of the size. Your objective is to help him find the minimum number of bottles required to supply the given demand of milk.
+Input Format:
+First line contains number of test cases N
+Next N lines, each contain a positive integer Li which corresponds to the demand of milk.
+Output Format:
+For each input Li, print the minimum number of bottles required to fulfill the demand
+Constraints:
+1 <= N <= 1000
+Li > 0
+1 <= i <= N
+Sample Input and Output
+SNo. Input Output
+1
+2
+17
+65
+2
+7
+Explanation:
+Number of test cases is 2
+1. In first test case, demand of milk is 17 litres which can be supplied using minimum of 2 bottles as follows
+o 1 x 10 litres and
+o 1 x 7 litres
+2. In second test case, demand of milk is 65 litres which can be supplied using minimum of 7 bottles as follows
+o 6 x 10 litres and
+o 1 x 5 litres
+
+Solution : 
+Since we have to find minimum no. of bottles, we can start from the largest number and divide continuously to find the count
